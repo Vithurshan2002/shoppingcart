@@ -27,7 +27,7 @@
            "brand":"Iphone",
              "ram": "3",
               "storage": "256",
-          "imageUrl" : "https://www.t-mobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-x/space-gray/Apple-iPhoneX-SpaceGray-1-3x.jpg",
+          "imageUrl" : "https://m.media-amazon.com/images/I/517cbS1x8gL._AC_SX425_.jpg",
           "features" : [
             "Big screen",
             "Brilliant in every way",
@@ -46,7 +46,7 @@
           "brand":"Samsung",
             "ram": "4",
              "storage": "64",
-          "imageUrl" : "https://www.t-mobile.com/content/dam/t-mobile/en-p/cell-phones/samsung/samsung-galaxy-s9-plus/lilac-purple/Samsung-Galaxy-S9-Plus-Lilac-Purple-2-3x.jpg",
+          "imageUrl" : "https://cdn.alloallo.media/catalog/product/samsung/galaxy-s/galaxy-s9/galaxy-s9-sunrise-gold.jpg",
           "features" : [
             "Super slow motion",
             "Personal emojis",
@@ -65,7 +65,7 @@
              "brand":"Nokia",
                "ram": "4",
                 "storage": "64",
-          "imageUrl" : "https://static.toiimg.com/photo/56420863/Nokia-6.jpg",
+          "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_K1YSxC-ZxvUPvp7LZSgluPg0D6xB9BFOfw&s",
           "features" : [
             "A phone you can rely on",
             "Nokia 6.1 with Android One",
@@ -86,7 +86,7 @@
            "brand":"Lenovo",
              "ram": "4",
               "storage": "4",
-          "imageUrl" : "https://www.91-img.com/pictures/lenovo-p2-3gb-ram-mobile-phone-large-1.jpg",
+          "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_p7gOgR-0Ckxlri4lZOJjmNzoo4lWeEo2jQ&s",
           "features" : [
             "177 g weight and 8.3 mm thin",
             "Qualcomm Snapdragon 625 true octa-core 2.0 GHz processor Android 6.0.1, Marshmallow 13.97cm",
@@ -104,7 +104,7 @@
             "brand":"OnePlus",
               "ram": "8",
                "storage": "128",
-          "imageUrl" : "https://www.theinquirer.net/w-images/d1417a96-037b-41d8-9260-8c6dadc4ad78/1/JrASRUyl-300x500.jpg",
+          "imageUrl" : "https://www.dxomark.com/wp-content/uploads/medias/post-22894/oneplus6t-1024x768-1.jpg",
           "features" : [
             "The speed you need",
             "More to see!",
