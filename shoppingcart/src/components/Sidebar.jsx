@@ -51,9 +51,9 @@ const Sidebar = ({ brand, priceRange, selectbrands, setselectedbrands,setpricera
       <p className="py-2 font-bold text-blue-500">RAM</p>
       <select 
       value={selectRam}
-      onChange={(e)=>{e.target.value?setRam(parseInt(e.target.value)):null}}
+      onChange={(e)=>{e.target.value?setRam(e.target.value):""}}
       className="w-50 bg-blue-50 ps-2 outline-0 ring-1 rounded-full hover:cursor-pointer hover:ring-2 hover:ring-blue-800 transition-all font-semibold">
-        <option value="ALL" className="rounded-full">
+        <option value="All" className="rounded-full">
           ALL
         </option>
         {ramsize.map((ram, key) => (
@@ -65,9 +65,9 @@ const Sidebar = ({ brand, priceRange, selectbrands, setselectedbrands,setpricera
       <p className="py-2 font-bold text-blue-500">Storage</p>
       <select
       value={selectStorage}
-      onChange={(e)=>{setStrorage(e.target.value?parseInt(e.target.value):null)}}
+      onChange={(e)=>{setStrorage(e.target.value?(e.target.value):"")}}
        className="w-50  bg-blue-50 ps-2 outline-0 ring-1 rounded-full hover:cursor-pointer hover:ring-2 hover:ring-blue-800 transition-all font-semibold">
-        <option value="ALL" className="rounded-full">
+        <option value="All" className="rounded-full">
           ALL
         </option>
         {Storage.map((storage, key) => (

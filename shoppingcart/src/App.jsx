@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Shoppingcart from "./components/shoppingcart";
 import Sidebar from "./components/Sidebar";
@@ -6,23 +6,41 @@ import Products from "./products.json";
 import Protect from "./components/Protect";
 
 function App() {
+  const [filteredProducts, setFilteredProducts] = useState([]);
   const price = Products.map((data) => data.price);
   const min = Math.min(...price);
   const max = Math.max(...price);
   const [pricerange, setpricerange] = useState([min, max]);
   const brands = [...new Set(Products.map((data) => data.brand))].sort();
   const [selectbrands, setselectedbrands] = useState([]);
-  const [selectRam, setRam] = useState(null);
-  const [selectStorage, setStrorage] = useState(null);
+  const [selectRam, setRam] = useState("");
+  const [selectStorage, setStrorage] = useState("");
   const [search, setSearch] = useState();
 
-  const filterProduct=Products.filter((product)=>{
-      const{name,brand,price}=product;
-        const matchprotect=name?.toLowerCase().includes(search?.toLowerCase());
-        const matchbrand =selectbrands.length == 0 || selectbrands.includes(brand);
-        const pricesearch= pricerange.length ==0 || price >=pricerange[0] && price <=pricerange[1]
-        return matchprotect && matchbrand && pricesearch;
-  })
+ 
+
+
+useEffect(() => {
+  const filterProduct = Products.filter((product) => {
+    const { name, brand, price, ram, storage } = product;
+
+    const matchName = !search || name.toLowerCase().includes(search.toLowerCase());
+    const matchBrand = selectbrands.length === 0 || selectbrands.includes(brand);
+    const matchPrice = price >= pricerange[0] && price <= pricerange[1];
+    const matchRam = selectRam === "" || ram == selectRam || selectRam==="All";
+    const matchStorage = selectStorage === "" || storage == selectStorage || selectStorage==="All";
+
+    return matchName && matchBrand && matchPrice && matchRam && matchStorage;
+  });
+
+  setFilteredProducts(filterProduct);
+}, [search, selectbrands, pricerange, selectRam, selectStorage]);
+
+
+
+ 
+
+
   return (
     <div>
       <Navbar search={search} setSearch={setSearch} />
@@ -41,7 +59,7 @@ function App() {
           />
         </div>
         <div className="w-full">
-          <Protect filterProduct={filterProduct}/>
+          <Protect filterProduct={filteredProducts}/>
         </div>
       </div>
     </div>
@@ -49,3 +67,4 @@ function App() {
 }
 
 export default App;
+
