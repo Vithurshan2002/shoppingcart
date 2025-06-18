@@ -15,6 +15,14 @@ function App() {
   const [selectRam, setRam] = useState(null);
   const [selectStorage, setStrorage] = useState(null);
   const [search, setSearch] = useState();
+
+  const filterProduct=Products.filter((product)=>{
+      const{name,brand,price}=product;
+        const matchprotect=name?.toLowerCase().includes(search?.toLowerCase());
+        const matchbrand =selectbrands.length == 0 || selectbrands.includes(brand);
+        const pricesearch= pricerange.length ==0 || price >=pricerange[0] && price <=pricerange[1]
+        return matchprotect && matchbrand && pricesearch;
+  })
   return (
     <div>
       <Navbar search={search} setSearch={setSearch} />
@@ -33,7 +41,7 @@ function App() {
           />
         </div>
         <div className="w-full">
-          <Protect/>
+          <Protect filterProduct={filterProduct}/>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ const Sidebar = ({ brand, priceRange, selectbrands, setselectedbrands,setpricera
   const min = Math.min(...price);
   const max = Math.max(...price);
   return (
-    <div className=" bg-blue-200 shadow border-t-2 border-t-blue-800 h-fit pt-5 ps-4 pe-2">
+    <div className=" bg-blue-200 shadow border-t-2 border-t-blue-800 h-fit pt-5 ps-4 pe-2 pb-2 rounded-b-sm">
       <h1 className="text-xl font-bold">Filters</h1>
       <p className="py-2 font-bold text-blue-500">Brands</p>
       {brand.map((brand, key) => (
@@ -23,7 +23,7 @@ const Sidebar = ({ brand, priceRange, selectbrands, setselectedbrands,setpricera
                   : [...selectbrands, brand]
               )
             }
-            className="font-bold accent-emerald-800"
+            className="font-bold accent-emerald-800 hover:scale-105"
           />
           <p className="font-bold">{brand}</p>
         </label>
