@@ -3,7 +3,7 @@ import { LuSearch } from "react-icons/lu";
 const Navbar = ({ search, setSearch }) => {
   return (
     <div className="bg-blue-700  text-white flex items-center justify-around py-2 shadow-2xs fixed w-full shadow-black z-5">
-      <h1 className="text-xl font-bold  p-1 rounded-xl hover:scale-102 hover:cursor-pointer transition-all"><span className='text-white'>SmartPhone</span><span className="text-black"> Store</span></h1>
+      <h1 className="text-xl font-bold  p-1 rounded-xl hover:scale-102 hover:cursor-pointer transition-all"><span className='text-white'>Ultra</span><span className="text-black"> Mobilize</span></h1>
       <div className="p-1 rounded-full border bg-white">
         <div className="flex items-center justify-center">
           <div>

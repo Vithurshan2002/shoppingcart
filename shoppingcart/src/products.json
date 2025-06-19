@@ -114,5 +114,424 @@
             "Do more with less!"
           ],
           "readmore" : "https://www.oneplus.com/se/6"
-        }
+        },
+
+  {
+    "id": "699mutjv45",
+    "date": "01-05-2018",
+    "name": "iPhone X",
+    "price": "12999",
+    "brand": "Apple",
+    "ram": "3",
+    "storage": "256",
+    "imageUrl": "https://m.media-amazon.com/images/I/517cbS1x8gL._AC_SX425_.jpg",
+    "features": [
+      "Super Retina OLED",
+      "Face ID",
+      "Wireless charging",
+      "A11 Bionic chip",
+      "Augmented reality",
+      "Portrait lighting"
+    ],
+    "readmore": "https://www.apple.com/lae/iphone-xs/"
+  },
+  {
+    "id": "l9v8cy2a8z",
+    "date": "12-08-2018",
+    "name": "Samsung Galaxy S9",
+    "price": "11999",
+    "brand": "Samsung",
+    "ram": "4",
+    "storage": "64",
+    "imageUrl": "https://cdn.alloallo.media/catalog/product/samsung/galaxy-s/galaxy-s9/galaxy-s9-sunrise-gold.jpg",
+    "features": [
+      "Super slow-mo video",
+      "AR Emoji",
+      "Iris scanner",
+      "Oreo + Samsung Experience",
+      "12 MP camera",
+      "64 GB internal memory"
+    ],
+    "readmore": "https://www.samsung.com/se/smartphones/galaxy-s9-sm-g960/SM-G960FZPDNEE/"
+  },
+  {
+    "id": "0bsjehplb1",
+    "date": "11-01-2017",
+    "name": "Nokia 6.1",
+    "price": "5999",
+    "brand": "Nokia",
+    "ram": "4",
+    "storage": "64",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_K1YSxC-ZxvUPvp7LZSgluPg0D6xB9BFOfw&s",
+    "features": [
+      "Android One",
+      "ZEISS optics",
+      "Built like a tank",
+      "Android 9 Pie",
+      "Qualcomm Snapdragon 630",
+      "5.5\" Full HD display"
+    ],
+    "readmore": "https://www.nokia.com/en_int/phones/nokia-6"
+  },
+  {
+    "id": "cqiwhz6jq8",
+    "date": "11-08-2017",
+    "name": "Lenovo P2",
+    "price": "8999",
+    "brand": "Lenovo",
+    "ram": "4",
+    "storage": "32",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_p7gOgR-0Ckxlri4lZOJjmNzoo4lWeEo2jQ&s",
+    "features": [
+      "5100 mAh battery",
+      "Snapdragon 625",
+      "Full HD AMOLED",
+      "Octa‑core 2.0 GHz",
+      "32/128 GB + microSD",
+      "78 hr talk time"
+    ],
+    "readmore": "https://www.lenovo.com/in/en/smartphones/p-series/P2c72/p/PPIPPIP2C72"
+  },
+  {
+    "id": "vaingspk0a",
+    "date": "10-08-2018",
+    "name": "OnePlus 6T",
+    "price": "8999",
+    "brand": "OnePlus",
+    "ram": "8",
+    "storage": "128",
+    "imageUrl": "https://www.dxomark.com/wp-content/uploads/medias/post-22894/oneplus6t-1024x768-1.jpg",
+    "features": [
+      "In-display fingerprint",
+      "Snapdragon 845",
+      "Dual camera",
+      "6.41\" AMOLED",
+      "Mini-drop notch",
+      "Dash Charge"
+    ],
+    "readmore": "https://www.oneplus.com/se/6"
+  },
+  {
+    "id": "mx129dkq8w",
+    "date": "14-03-2019",
+    "name": "Huawei P30 Pro",
+    "price": "10999",
+    "brand": "Huawei",
+    "ram": "8",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBuH519j28qdxknpSwF56WwApoGqn29PHhbg&s",
+    "features": [
+      "SuperSpectrum sensor",
+      "40 MP Leica quad cam",
+      "6.47\" OLED",
+      "Kirin 980",
+      "4200 mAh battery",
+      "IP68 rating"
+    ],
+    "readmore": "https://consumer.huawei.com/en/phones/p30-pro/"
+  },
+  {
+    "id": "qx8rzn4j2v",
+    "date": "25-07-2020",
+    "name": "Google Pixel 4 XL",
+    "price": "11999",
+    "brand": "Google",
+    "ram": "6",
+    "storage": "128",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTda907t6tIdtCRm0PcLSSll58JkiqthHhbMA&s",
+    "features": [
+      "Motion Sense gestures",
+      "Night Sight camera",
+      "6.3\" QHD+ OLED",
+      "Face Unlock",
+      "Titan M chip",
+      "Wireless charging"
+    ],
+    "readmore": "https://store.google.com/us/product/pixel_4_xl"
+  },
+  {
+    "id": "e7zyr3qmlu",
+    "date": "02-09-2021",
+    "name": "Xiaomi Mi 11 Ultra",
+    "price": "9999",
+    "brand": "Xiaomi",
+    "ram": "12",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR43wFPlgQf3a5vCfK9tCfwI4cKVF46oN6lgw&s",
+    "features": [
+      "50 MP dual display cam",
+      "Snapdragon 888",
+      "6.81\" 120 Hz AMOLED",
+      "IP68 rating",
+      "5000 mAh + 67 W charge",
+      "Harman Kardon audio"
+    ],
+    "readmore": "https://www.mi.com/global/product/mi-11-ultra/"
+  },
+  {
+    "id": "f2h9jv0lq1",
+    "date": "11-10-2021",
+    "name": "Samsung Galaxy S21",
+    "price": "12999",
+    "brand": "Samsung",
+    "ram": "8",
+    "storage": "128",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpuOMq2iq2xRfX4yh2n5YVMnw0v97sde2mjg&s",
+    "features": [
+      "Exynos 2100",
+      "8 GB RAM",
+      "6.2\" Dynamic AMOLED 2X",
+      "64 MP camera",
+      "4000 mAh battery",
+      "120 Hz refresh rate"
+    ],
+    "readmore": "https://www.samsung.com/global/galaxy/galaxy-s21-5g/"
+  },
+  {
+    "id": "g3m5t2zv9x",
+    "date": "15-09-2021",
+    "name": "iPhone 13 Pro",
+    "price": "14999",
+    "brand": "Apple",
+    "ram": "6",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToALQL-EfLOK0dlQh7VsMQ3cITbVLNRQjDhg&s",
+    "features": [
+      "A15 Bionic",
+      "6.1\" ProMotion OLED",
+      "120 Hz refresh rate",
+      "Pro camera system",
+      "5 G support",
+      "Ceramic Shield"
+    ],
+    "readmore": "https://www.apple.com/iphone-13-pro/"
+  },
+  {
+    "id": "h6c7k9d2r5",
+    "date": "22-01-2022",
+    "name": "OnePlus 10 Pro",
+    "price": "13999",
+    "brand": "OnePlus",
+    "ram": "12",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVK1pnknX7wSFX_Ixa2bxhvoA_JGGDdY0nhg&s",
+    "features": [
+      "Snapdragon 8 Gen1",
+      "120 Hz LTPO AMOLED",
+      "65 W SuperVOOC",
+      "4500 mAh battery",
+      "Hasselblad camera",
+      "IP68"
+    ],
+    "readmore": "https://www.oneplus.com/10-pro"
+  },
+  {
+    "id": "j8l7n1p0c3",
+    "date": "05-05-2022",
+    "name": "Google Pixel 6",
+    "price": "9999",
+    "brand": "Google",
+    "ram": "8",
+    "storage": "128",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfM5qAmLnKYKezESMWU9QXyMDkIXX4zHpyrw&s",
+    "features": [
+      "Google Tensor chip",
+      "50 MP camera",
+      "6.4\" AMOLED",
+      "Android 12",
+      "5 G",
+      "Magnet rear housing"
+    ],
+    "readmore": "https://store.google.com/us/product/pixel_6"
+  },
+  {
+    "id": "k9m8v3z2b6",
+    "date": "11-11-2022",
+    "name": "Samsung Galaxy S22 Ultra",
+    "price": "17999",
+    "brand": "Samsung",
+    "ram": "12",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwoKOV7xWgO4jm7pcay9TMlWIjsgOTs-OkvQ&s",
+    "features": [
+      "S Pen built-in",
+      "Quad 108 MP camera",
+      "Snapdragon 8 Gen1",
+      "6.8\" Dynamic AMOLED 2X",
+      "5000 mAh",
+      "45 W fast charge"
+    ],
+    "readmore": "https://www.samsung.com/global/galaxy/galaxy-s22-ultra-5g/"
+  },
+  {
+    "id": "l2p4x5c7w9",
+    "date": "15-03-2023",
+    "name": "iPhone 14 Pro",
+    "price": "15999",
+    "brand": "Apple",
+    "ram": "6",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnM0c-COMT7sGjah2mkXkVnfkrQpyCnFIa4A&s",
+    "features": [
+      "A16 Bionic",
+      "Always-On display",
+      "Dynamic Island",
+      "48 MP main camera",
+      "Photonic Engine",
+      "120 Hz ProMotion"
+    ],
+    "readmore": "https://www.apple.com/iphone-14-pro/"
+  },
+  {
+    "id": "m5q6r7s8t1",
+    "date": "01-05-2023",
+    "name": "Google Pixel 7 Pro",
+    "price": "13999",
+    "brand": "Google",
+    "ram": "12",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Jb9cm_uLPpkvADZyAR_7bHpT_DpZNtSL5g&s",
+    "features": [
+      "Google Tensor G2",
+      "48 MP telephoto",
+      "6.7\" LTPO OLED",
+      "Pro-grade camera",
+      "Face Unlock",
+      "5 G"
+    ],
+    "readmore": "https://store.google.com/us/product/pixel_7_pro"
+  },
+  {
+    "id": "n4t2b7y3u9",
+    "date": "20-11-2023",
+    "name": "Samsung Galaxy S23",
+    "price": "14999",
+    "brand": "Samsung",
+    "ram": "8",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWGHiXskBxLdu8cIyM187nNvaMGKXp0HC-mA&s",
+    "features": [
+      "Snapdragon 8 Gen2",
+      "50 MP camera",
+      "6.1\" Dynamic AMOLED 2X",
+      "8 GB RAM",
+      "3900 mAh battery",
+      "120 Hz refresh"
+    ],
+    "readmore": "https://www.samsung.com/global/galaxy/galaxy-s23-5g/"
+  },
+  {
+    "id": "o7u6y5t4r3",
+    "date": "25-03-2024",
+    "name": "OnePlus 12",
+    "price": "12999",
+    "brand": "OnePlus",
+    "ram": "16",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLPU8t9WUShzisAnit7Ca_HPrq3JkSi-XOQ&s",
+    "features": [
+      "Snapdragon 8 Gen3",
+      "120 Hz Fluid AMOLED",
+      "100 W SUPERVOOC",
+      "5000 mAh",
+      "Hasselblad camera tuning",
+      "IP68"
+    ],
+    "readmore": "https://www.oneplus.com/12"
+  },
+  {
+    "id": "p8w9e0r1t2",
+    "date": "10-05-2024",
+    "name": "iPhone 15 Pro",
+    "price": "16999",
+    "brand": "Apple",
+    "ram": "8",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTSM-8ziXa8F3X1xv1y_L31j2kjK75tP470g&s",
+    "features": [
+      "A17 Pro",
+      "Titanium frame",
+      "48 MP main camera",
+      "USB-C port",
+      "120 Hz ProMotion",
+      "5 G"
+    ],
+    "readmore": "https://www.apple.com/iphone-15-pro/"
+  },
+  {
+    "id": "q1r2t3y4u5",
+    "date": "20-06-2024",
+    "name": "Google Pixel 8",
+    "price": "13999",
+    "brand": "Google",
+    "ram": "8",
+    "storage": "128",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQLkXW-VWxKt11k3rD33BYZ1eCv4vDxeMKA&s",
+    "features": [
+      "Google Tensor G3",
+      "AI-first features",
+      "6.2\" OLED",
+      "Dual camera",
+      "Face Unlock",
+      "5 G"
+    ],
+    "readmore": "https://store.google.com/us/product/pixel_8"
+  },
+  {
+    "id": "r2t3y4u5i6",
+    "date": "01-02-2025",
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": "19999",
+    "brand": "Samsung",
+    "ram": "12",
+    "storage": "512",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS60OZg221zO7L0l9oWB8c-v3GDVK5fy6Mnww&s",
+    "features": [
+      "Snapdragon 8 Gen3",
+      "200 MP camera",
+      "100 X Space Zoom",
+      "6.8\" Dynamic AMOLED 2X",
+      "5000 mAh",
+      "S Pen included"
+    ],
+    "readmore": "https://www.samsung.com/global/galaxy/galaxy-s24-ultra-5g/"
+  },
+  {
+    "id": "s3u4y5t6r7",
+    "date": "15-03-2025",
+    "name": "OnePlus Ace 3",
+    "price": "9999",
+    "brand": "OnePlus",
+    "ram": "12",
+    "storage": "256",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWOOHtcF1sji_jy4PYEJz3gp4d-5cDbE1H9Q&s",
+    "features": [
+      "Dimensity 8300 Ultra",
+      "120 Hz AMOLED",
+      "80 W SUPERVOOC",
+      "5000 mAh",
+      "Stereo speakers",
+      "120 fps gaming mode"
+    ],
+    "readmore": "https://www.oneplus.com/ace-3"
+  },
+  {
+    "id": "t4y5u6i7o8",
+    "date": "01-06-2025",
+    "name": "Samsung Galaxy Z Fold5",
+    "price": "22999",
+    "brand": "Samsung",
+    "ram": "12",
+    "storage": "512",
+    "imageUrl": "https://icentre.lk/wp-content/uploads/2024/03/Samsung-Galaxy-Z-Fold5-Icy-Blue-in-Sri-Lanka.webp",
+    "features": [
+      "Snapdragon 8 Gen3",
+      "S Pen support",
+      "7.6\" foldable display",
+      "Panel-less cover screen",
+      "45 W fast charge",
+      "512 GB storage"
+    ],
+    "readmore": "https://www.samsung.com/global/galaxy/galaxy-z-fold5/"
+  }
       ]
