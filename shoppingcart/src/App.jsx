@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
-import Shoppingcart from "./components/shoppingcart";
 import Sidebar from "./components/Sidebar";
 import Products from "./products.json";
 import Protect from "./components/Protect";
@@ -17,13 +16,10 @@ function App() {
   const [selectStorage, setStrorage] = useState("");
   const [search, setSearch] = useState();
 
- 
-
 
 useEffect(() => {
   const filterProduct = Products.filter((product) => {
     const { name, brand, price, ram, storage } = product;
-
     const matchName = !search || name.toLowerCase().includes(search.toLowerCase());
     const matchBrand = selectbrands.length === 0 || selectbrands.includes(brand);
     const matchPrice = price >= pricerange[0] && price <= pricerange[1];
